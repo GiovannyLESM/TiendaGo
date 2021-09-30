@@ -1,0 +1,14 @@
+npm i 
+express :framework creacion ded aplicaciones backend.
+express-handlebars : complemento de express motor de plantillas
+express-session : complemento de express que administra sessiones
+mysql : modulo de npm para conectarnos a una base de datos
+express-mqsql-session: este modulo almacenara sessiones en la base de datos
+morgan : permite crear logs o mensajes de que es lo que las aplicaciones clientes estan pidiendo al servidor
+bcryptjs : cifra contraseñas de los usuarios antes de guardarselos
+passport modulo para autenticar, y manejar el proceso de login
+passport-local :modulo para autenticar usuarios con nuestra propia base de datos
+timeago.js: convierte los timestamps o fechas de la base de datos en un formato "2 minutes ago"
+connect-flash : se usa para mostrar mensajes de error y exito cuando el usuario realice una operacion
+express-validator : validar los datos que el usuario nos envia desde la aplicacion cliente
+nodemon -D : modulo de desarrollo
