@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-router.get('/index', (req, res) => {
-    res.render('./pages/index');
+router.get('/catalogue', (req, res) => {
+    res.render('./pages/catalogue');
 });
 module.exports = router;
