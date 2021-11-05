@@ -11,7 +11,6 @@ Product.init({
     name: DataTypes.STRING,
     price: DataTypes.FLOAT,
     stock: DataTypes.INTEGER,
-    state: DataTypes.TINYINT,
 }, {
     sequelize,
     modelName: "product",
